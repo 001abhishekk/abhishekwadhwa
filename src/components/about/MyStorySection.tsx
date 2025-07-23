@@ -9,7 +9,7 @@ export const MyStorySection = () => {
           <div className="flex justify-center lg:justify-start order-2 lg:order-1">
             <div className="relative">
               <img
-                src="/src/photos/me-3.jpg?auto=compress&cs=tinysrgb&w=400"
+                src="/images/me-3.jpg?auto=compress&cs=tinysrgb&w=400"
                 alt="Abhishek Wadhwa"
                 className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-blue-600"
               />
