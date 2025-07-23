@@ -30,7 +30,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center shadow-2xl">
                 <img
-                  src="https://ibb.co/FqbcvzJm?auto=compress&cs=tinysrgb&w=400"
+                  src="https://drive.usercontent.google.com/download?id=1E7JFnLkYC0D1_-ZWMyreWgQd4uHyzxxo?auto=compress&cs=tinysrgb&w=400"
                   alt="Abhishek Wadhwa"
                   className="w-72 h-72 rounded-full object-cover border-4 border-white shadow-lg"
                 />
