@@ -1,0 +1,208 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --body-a-tag-font-family: "Heebo", Helvetica;
+  --body-a-tag-font-size: 15px;
+  --body-a-tag-font-style: normal;
+  --body-a-tag-font-weight: 400;
+  --body-a-tag-letter-spacing: 0px;
+  --body-a-tag-line-height: 125%;
+  --body-body-text-font-family: "Roboto", Helvetica;
+  --body-body-text-font-size: 15px;
+  --body-body-text-font-style: normal;
+  --body-body-text-font-weight: 400;
+  --body-body-text-letter-spacing: 0px;
+  --body-body-text-line-height: 150%;
+  --body-button-text-font-family: "Roboto", Helvetica;
+  --body-button-text-font-size: 16px;
+  --body-button-text-font-style: normal;
+  --body-button-text-font-weight: 500;
+  --body-button-text-letter-spacing: 0px;
+  --body-button-text-line-height: 150%;
+  --body-h6-fw-500-font-family: "Heebo", Helvetica;
+  --body-h6-fw-500-font-size: 15px;
+  --body-h6-fw-500-font-style: normal;
+  --body-h6-fw-500-font-weight: 500;
+  --body-h6-fw-500-letter-spacing: 0px;
+  --body-h6-fw-500-line-height: 125%;
+  --body-nav-text-font-family: "Roboto", Helvetica;
+  --body-nav-text-font-size: 15px;
+  --body-nav-text-font-style: normal;
+  --body-nav-text-font-weight: 500;
+  --body-nav-text-letter-spacing: 0px;
+  --body-nav-text-line-height: 125%;
+  --body-p-h6-text-font-family: "Heebo", Helvetica;
+  --body-p-h6-text-font-size: 15px;
+  --body-p-h6-text-font-style: normal;
+  --body-p-h6-text-font-weight: 400;
+  --body-p-h6-text-letter-spacing: 0px;
+  --body-p-h6-text-line-height: 125%;
+  --body-small-font-family: "Roboto", Helvetica;
+  --body-small-font-size: 14px;
+  --body-small-font-style: normal;
+  --body-small-font-weight: 400;
+  --body-small-letter-spacing: 0px;
+  --body-small-line-height: 150%;
+  --border-white: rgba(255, 255, 255, 1);
+  --display-text-display-1-font-family: "Heebo", Helvetica;
+  --display-text-display-1-font-size: 96px;
+  --display-text-display-1-font-style: normal;
+  --display-text-display-1-font-weight: 700;
+  --display-text-display-1-letter-spacing: 0px;
+  --display-text-display-1-line-height: 125%;
+  --eduport-color24292d-dark: rgba(36, 41, 45, 1);
+  --eduport-coloreduport-body-color: rgba(116, 117, 121, 1);
+  --eduport-coloreduport-danger-soft: rgba(214, 41, 62, 1);
+  --eduport-coloreduport-orange: rgba(253, 126, 20, 1);
+  --gray-colorsgray-dark: rgba(52, 58, 64, 1);
+  --heading-text-h1-font-family: "Heebo", Helvetica;
+  --heading-text-h1-font-size: 45px;
+  --heading-text-h1-font-style: normal;
+  --heading-text-h1-font-weight: 700;
+  --heading-text-h1-letter-spacing: 0px;
+  --heading-text-h1-line-height: 125%;
+  --heading-text-h2-font-family: "Heebo", Helvetica;
+  --heading-text-h2-font-size: 37.5px;
+  --heading-text-h2-font-style: normal;
+  --heading-text-h2-font-weight: 700;
+  --heading-text-h2-letter-spacing: 0px;
+  --heading-text-h2-line-height: 125%;
+  --heading-text-h3-font-family: "Heebo", Helvetica;
+  --heading-text-h3-font-size: 30px;
+  --heading-text-h3-font-style: normal;
+  --heading-text-h3-font-weight: 700;
+  --heading-text-h3-letter-spacing: 0px;
+  --heading-text-h3-line-height: 125%;
+  --heading-text-h4-font-family: "Heebo", Helvetica;
+  --heading-text-h4-font-size: 26.25px;
+  --heading-text-h4-font-style: normal;
+  --heading-text-h4-font-weight: 700;
+  --heading-text-h4-letter-spacing: 0px;
+  --heading-text-h4-line-height: 150%;
+  --heading-text-h5-font-family: "Heebo", Helvetica;
+  --heading-text-h5-font-size: 21px;
+  --heading-text-h5-font-style: normal;
+  --heading-text-h5-font-weight: 700;
+  --heading-text-h5-letter-spacing: 0px;
+  --heading-text-h5-line-height: 125%;
+  --heading-text-h6-font-family: "Heebo", Helvetica;
+  --heading-text-h6-font-size: 15px;
+  --heading-text-h6-font-style: normal;
+  --heading-text-h6-font-weight: 700;
+  --heading-text-h6-letter-spacing: 0px;
+  --heading-text-h6-line-height: 125%;
+  --soft-colorbody: rgba(116, 117, 121, 0.1);
+  --soft-colordanger: rgba(214, 41, 62, 0.1);
+  --soft-colorinfo: rgba(23, 162, 184, 0.1);
+  --soft-colororange: rgba(253, 126, 20, 0.1);
+  --soft-colorprimary: rgba(6, 106, 201, 0.1);
+  --soft-colorpurple: rgba(111, 66, 193, 0.1);
+  --soft-colorsecondary: rgba(154, 158, 164, 0.1);
+  --soft-colorsuccess: rgba(12, 188, 135, 0.1);
+  --soft-colorwarning: rgba(247, 195, 46, 0.1);
+  --theme-colorblue: rgba(29, 59, 83, 1);
+  --theme-colorbody: rgba(116, 117, 121, 1);
+  --theme-colorbutton-light: rgba(221, 222, 224, 1);
+  --theme-colordanger: rgba(214, 41, 62, 1);
+  --theme-colordark: rgba(36, 41, 45, 1);
+  --theme-colorinfo: rgba(23, 162, 184, 1);
+  --theme-colorlight: rgba(245, 247, 249, 1);
+  --theme-colororange: rgba(253, 126, 20, 1);
+  --theme-colorprimary: rgba(6, 106, 201, 1);
+  --theme-colorpurple: rgba(111, 66, 193, 1);
+  --theme-colorsecondary: rgba(154, 158, 164, 1);
+  --theme-colorsuccess: rgba(12, 188, 135, 1);
+  --theme-colorwarning: rgba(247, 195, 46, 1);
+  --theme-colorwhite: rgba(255, 255, 255, 1);
+  --warning: rgba(247, 195, 46, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
