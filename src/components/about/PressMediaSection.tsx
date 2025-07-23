@@ -3,12 +3,12 @@ import { ExternalLink, Quote } from 'lucide-react';
 
 export const PressMediaSection = () => {
   const mediaLogos = [
-    { name: 'Medium', logo: '/src/photos/logos/Medium-logo.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Spotify', logo: '/src/photos/logos/spotify.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'LinkedIn', logo: '/src/photos/logos/linkedin.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Quora', logo: '/src/photos/logos/quora.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Udemy', logo: '/src/photos/logos/udemy.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Google', logo: '/src/photos/logos/google.svg?auto=compress&cs=tinysrgb&w=200' }
+    { name: 'Medium', logo: '/images/medium.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Spotify', logo: '/images/spotify.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'LinkedIn', logo: '/images/linkedin.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Quora', logo: '/images/quora.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Udemy', logo: '/images/udemy.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Google', logo: '/images/google.svg?auto=compress&cs=tinysrgb&w=200' }
   ];
 
   const testimonials = [
