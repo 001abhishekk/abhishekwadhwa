@@ -22,7 +22,7 @@ export const AboutSection = () => {
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
               <img
-                src="/src/photos/me-2.jpg?auto=compress&cs=tinysrgb&w=400"
+                src="/images/me-2.jpg?auto=compress&cs=tinysrgb&w=400"
                 alt="Abhishek Wadhwa"
                 className="w-80 h-180 rounded-2xl object-cover shadow-2xl"
               />
