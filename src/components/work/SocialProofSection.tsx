@@ -2,12 +2,12 @@ import React from 'react';
 
 export const SocialProofSection = () => {
   const platforms = [
-    { name: 'Amazon', logo: '/src/photos/logos/amazon.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Udemy', logo: '/src/photos/logos/udemy.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Spotify', logo: '/src/photos/logos/spotify.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Medium', logo: '/src/photos/logos/medium-logo.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Quora', logo: '/src/photos/logos/quora.svg?auto=compress&cs=tinysrgb&w=200' },
-    { name: 'Goodreads', logo: '/src/photos/logos/goodreads.svg?auto=compress&cs=tinysrgb&w=200' }
+    { name: 'Amazon', logo: '/images/amazon.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Udemy', logo: '/images/udemy.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Spotify', logo: '/images/spotify.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Medium', logo: '/images/medium.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Quora', logo: '/images/quora.svg?auto=compress&cs=tinysrgb&w=200' },
+    { name: 'Goodreads', logo: '/images/goodreads.svg?auto=compress&cs=tinysrgb&w=200' }
   ];
 
   const stats = [
