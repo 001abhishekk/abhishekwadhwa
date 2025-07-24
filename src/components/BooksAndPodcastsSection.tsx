@@ -149,10 +149,13 @@ export const BooksAndPodcastsSection = () => {
                   
                   <p className="text-gray-600 mb-6 leading-relaxed">{podcast.description}</p>
                   
-                  <a href={podcast.platforms[0].link} target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors duration-200 flex items-center justify-center mb-4">
+                  <button 
+                    onClick={() => setSelectedPodcast(podcast.title)}
+                    className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-all duration-200 transform hover:scale-105 hover:shadow-lg flex items-center justify-center mb-4"
+                  >
                     <Play className="w-4 h-4 mr-2" />
                     Listen Now
-                    </a>
+                    </button>
 
                   <p className="text-center text-gray-500 text-sm">
                     Available on all major podcast platforms
