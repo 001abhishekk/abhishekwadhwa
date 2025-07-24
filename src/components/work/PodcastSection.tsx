@@ -1,7 +1,11 @@
 import React from 'react';
 import { Play, Headphones, ExternalLink } from 'lucide-react';
+import { PodcastModal } from '../PodcastModal';
+
 
 export const PodcastSection = () => {
+    const [selectedPodcast, setSelectedPodcast] = React.useState<string | null>(null);
+
   const podcasts = [
     {
       id: 1,
@@ -63,26 +67,28 @@ export const PodcastSection = () => {
                 
                 <p className="text-gray-600 mb-6 leading-relaxed">{podcast.description}</p>
                 
-                <a href={podcast.platforms[0].link} target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors duration-200 flex items-center justify-center mb-4">
-                    <Play className="w-4 h-4 mr-2" />
-                    Listen Now
-                    </a>
+                <button 
+                  onClick={() => setSelectedPodcast(podcast.title)}
+                  className="w-full bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-all duration-200 transform hover:scale-105 hover:shadow-lg flex items-center justify-center mb-4"
+                >
+                  <Play className="w-4 h-4 mr-2" />
+                  Listen Now
+                </button>
                 
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {podcast.platforms.map((platform, index) => (
-                    <button
-                      key={index}
-                      className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2 rounded-lg font-medium transition-colors duration-200 flex items-center text-sm"
-                    >
-                      <span className="mr-1">{platform.icon}</span>
-                      {platform.name}
-                    </button>
-                  ))}
-                </div>
+                <p className="text-center text-gray-500 text-sm">
+                  Available on all major podcast platforms
+                </p>
+                
               </div>
             </div>
           ))}
         </div>
+                {/* Podcast Modal */}
+        <PodcastModal
+          isOpen={selectedPodcast !== null}
+          onClose={() => setSelectedPodcast(null)}
+          podcastTitle={selectedPodcast || ''}
+        />
       </div>
     </section>
   );
