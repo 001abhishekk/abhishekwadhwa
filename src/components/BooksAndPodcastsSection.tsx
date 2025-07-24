@@ -1,7 +1,10 @@
 import React from 'react';
 import { ExternalLink, Play, ShoppingCart, BookOpen, Users, Clock, Award, CheckCircle } from 'lucide-react';
+import { PodcastModal } from './PodcastModal';
 
 export const BooksAndPodcastsSection = () => {
+    const [selectedPodcast, setSelectedPodcast] = React.useState<string | null>(null);
+
   const books = [
     {
       id: 1,
@@ -151,18 +154,9 @@ export const BooksAndPodcastsSection = () => {
                     Listen Now
                     </a>
 
-                  
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    {podcast.platforms.map((platform, index) => (
-                      <button
-                        key={index}
-                        className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-3 py-2 rounded-lg font-medium transition-colors duration-200 flex items-center text-sm"
-                      >
-                        <span className="mr-1">{platform.icon}</span>
-                        {platform.name}
-                      </button>
-                    ))}
-                  </div>
+                  <p className="text-center text-gray-500 text-sm">
+                    Available on all major podcast platforms
+                  </p>
                 </div>
               </div>
             ))}
@@ -255,6 +249,13 @@ export const BooksAndPodcastsSection = () => {
           </div>
         </div>
       </div>
+
+       {/* Podcast Modal */}
+      <PodcastModal
+        isOpen={selectedPodcast !== null}
+        onClose={() => setSelectedPodcast(null)}
+        podcastTitle={selectedPodcast || ''}
+      />
     </section>
   );
 };
