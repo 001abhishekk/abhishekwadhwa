@@ -81,7 +81,7 @@ export const AboutCTASection = () => {
     Hire Me
   </a>
   <a
-    href="https://api.whatsapp.com/send?phone=919996850421"
+    href="https://wa.me/919996850421" // WhatsApp link or chat URL
     target="_blank"
     rel="noopener noreferrer"
     className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center justify-center"
