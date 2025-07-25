@@ -72,20 +72,33 @@ export const AboutCTASection = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center">
-            <Mail className="w-5 h-5 mr-2" />
-            Hire Me
-          </button>
-          <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center justify-center">
-            <MessageCircle className="w-5 h-5 mr-2" />
-            Let's Chat
-          </button>
-          <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center justify-center">
-            <Calendar className="w-5 h-5 mr-2" />
-            Book a Call
-          </button>
-        </div>
+<div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+  <a
+    href="mailto:abhishekw47@gmail.com"
+    className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center"
+  >
+    <Mail className="w-5 h-5 mr-2" />
+    Hire Me
+  </a>
+  <a
+    href="https://api.whatsapp.com/send?phone=919996850421"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center justify-center"
+  >
+    <MessageCircle className="w-5 h-5 mr-2" />
+    Let's Chat
+  </a>
+  <a
+    href="https://calendly.com/abhishekwadhwa/30min"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors duration-200 flex items-center justify-center"
+  >
+    <Calendar className="w-5 h-5 mr-2" />
+    Book a Call
+  </a>
+</div>
 
         {/* Newsletter Signup */}
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
