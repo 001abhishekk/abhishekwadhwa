@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx vite build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": null,
   "functions": {
@@ -19,3 +19,4 @@
     }
   ]
 }
+
