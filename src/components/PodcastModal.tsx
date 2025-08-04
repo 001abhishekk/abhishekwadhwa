@@ -1,5 +1,6 @@
 import React from 'react';
 import { X, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 interface PodcastModalProps {
     isOpen: boolean;
@@ -45,8 +46,9 @@ export const PodcastModal: React.FC<PodcastModalProps> = ({ isOpen, onClose, pod
                                 rel="noopener noreferrer"
                                 className={`${platform.color} text-white p-4 rounded-xl transition-all duration-200 transform hover:scale-105 hover:shadow-lg flex items-center justify-between group`}
                             >
-                                <div className="flex items-center">
-                                    <img src={platform.logo} alt={platform.name} width={28} height={28} className="mr-3 rounded-md" />
+                                <div className="flex items-center"> 
+                                    <Image src={`/images/${platform.logo}`} alt={platform.name} width={28} height={28} className="mr-3 rounded-md" />
+                                    
                                     <span className="font-medium">{platform.name}</span>
                                 </div>
                                 <ExternalLink className="w-4 h-4 opacity-70 group-hover:opacity-100 transition-opacity duration-200" />
