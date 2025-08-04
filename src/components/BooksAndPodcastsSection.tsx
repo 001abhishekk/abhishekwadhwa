@@ -39,17 +39,17 @@ export const BooksAndPodcastsSection = () => {
             description: "Weekly 20-minute show debating AI, quantum, CRISPR & more. No hype—just facts.",
             thumbnail: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43331264/43331264-1745062376226-9a0858e9152a3.jpg",
             platforms: [
-                { name: "Spotify", logo: "/src/photos/logos/spotify-app-logo.svg", url: "https://open.spotify.com/show/1iDfNxMLs6vBQthe7SmcUR", color: "bg-green-500 hover:bg-green-600" },
-                { name: "Apple Podcasts", logo: "/src/photos/logos/applepodcast-app-logo.svg", url: "https://podcasts.apple.com/podcast/id1804601526", color: "bg-gray-800 hover:bg-gray-900" },
-                { name: "Overcast", logo: "/src/photos/logos/overcast-app-logo.svg", url: "https://overcast.fm/itunes1804601526", color: "bg-orange-500 hover:bg-orange-600" },
-                { name: "Pocket Casts", logo: "/src/photos/logos/pocketcasts-app-logo.svg", url: "https://pca.st/itunes/1804601526", color: "bg-red-600 hover:bg-red-700" },
-                { name: "Podcast Addict", logo: "/src/photos/logos/podcastaddict-app-logo.png", url: "https://podcastaddict.com/feed/https%3A%2F%2Fanchor.fm%2Fs%2F102ded980%2Fpodcast%2Frss", color: "bg-orange-700 hover:bg-orange-800" },
-                { name: "Castro", logo: "/src/photos/logos/castro-app-logo.svg", url: "https://castro.fm/podcast/31734303-f71f-4dce-abdf-8ac6cf9e1178", color: "bg-blue-500 hover:bg-blue-600" },
-                { name: "Player FM", logo: "/src/photos/logos/playerfm-app-logo.svg", url: "https://player.fm/subscribe?id=https://anchor.fm/s/102ded980/podcast/rss", color: "bg-indigo-500 hover:bg-indigo-600" },
-                { name: "Podchaser", logo: "/src/photos/logos/podchaser-app-logo.svg", url: "https://www.podchaser.com/podcasts/emerging-tech-debates-6051217?", color: "bg-pink-500 hover:bg-pink-600" },
-                { name: "Podcast Guru", logo: "/src/photos/logos/podcastguru-app-logo.png", url: "https://app.podcastguru.io/podcast/1804601526", color: "bg-yellow-500 hover:bg-yellow-600" },
-                { name: "RSS Feed", logo: "/src/photos/logos/rss-app-logo.png", url: "https://anchor.fm/s/102ded980/podcast/rss", color: "bg-orange-600 hover:bg-orange-700" },
-                { name: "Subscribe on Android", logo: "/src/photos/logos/android-app-logo.svg", url: "https://subscribeonandroid.com/anchor.fm/s/102ded980/podcast/rss", color: "bg-green-600 hover:bg-green-700" }
+                { name: "Spotify", logo: "/public/images/spotify-app-logo.svg", url: "https://open.spotify.com/show/1iDfNxMLs6vBQthe7SmcUR", color: "bg-green-500 hover:bg-green-600" },
+                { name: "Apple Podcasts", logo: "/public/images/applepodcast-app-logo.svg", url: "https://podcasts.apple.com/podcast/id1804601526", color: "bg-gray-800 hover:bg-gray-900" },
+                { name: "Overcast", logo: "/public/images/overcast-app-logo.svg", url: "https://overcast.fm/itunes1804601526", color: "bg-orange-500 hover:bg-orange-600" },
+                { name: "Pocket Casts", logo: "/public/images/pocketcasts-app-logo.svg", url: "https://pca.st/itunes/1804601526", color: "bg-red-600 hover:bg-red-700" },
+                { name: "Podcast Addict", logo: "/public/images/podcastaddict-app-logo.png", url: "https://podcastaddict.com/feed/https%3A%2F%2Fanchor.fm%2Fs%2F102ded980%2Fpodcast%2Frss", color: "bg-orange-700 hover:bg-orange-800" },
+                { name: "Castro", logo: "/public/images/castro-app-logo.svg", url: "https://castro.fm/podcast/31734303-f71f-4dce-abdf-8ac6cf9e1178", color: "bg-blue-500 hover:bg-blue-600" },
+                { name: "Player FM", logo: "/public/images/playerfm-app-logo.svg", url: "https://player.fm/subscribe?id=https://anchor.fm/s/102ded980/podcast/rss", color: "bg-indigo-500 hover:bg-indigo-600" },
+                { name: "Podchaser", logo: "/public/images/podchaser-app-logo.svg", url: "https://www.podchaser.com/podcasts/emerging-tech-debates-6051217?", color: "bg-pink-500 hover:bg-pink-600" },
+                { name: "Podcast Guru", logo: "/public/images/podcastguru-app-logo.png", url: "https://app.podcastguru.io/podcast/1804601526", color: "bg-yellow-500 hover:bg-yellow-600" },
+                { name: "RSS Feed", logo: "/public/images/rss-app-logo.png", url: "https://anchor.fm/s/102ded980/podcast/rss", color: "bg-orange-600 hover:bg-orange-700" },
+                { name: "Subscribe on Android", logo: "/public/images/android-app-logo.svg", url: "https://subscribeonandroid.com/anchor.fm/s/102ded980/podcast/rss", color: "bg-green-600 hover:bg-green-700" }
             ]
         },
         {
@@ -59,15 +59,15 @@ export const BooksAndPodcastsSection = () => {
             description: "Exploring books that unlock growth and change — with AI & author commentary.",
             thumbnail: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42763232/42763232-1737792595725-1ddfe86f830d5.jpg",
             platforms: [
-                { name: "Spotify", logo: "/src/photos/logos/spotify-app-logo.svg", url: "https://open.spotify.com/show/25aO0fxQNHSKFpWviUvQ4w?utm_medium=share&utm_source=linktree", color: "bg-green-500 hover:bg-green-600" },
-                { name: "Apple Podcasts", logo: "/src/photos/logos/apple-app-logo.svg", url: "https://podcasts.apple.com/us/podcast/deep-dive-reads/id1787360350?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_p", color: "bg-gray-800 hover:bg-gray-900" },
-                { name: "Castbox", logo: "/src/photos/logos/castbox-app-logo.svg", url: "https://castbox.fm/channel/Deep-Dive-Reads%3A-Self-Help-Book-Reviews-%26-Literary-Insights-for-Growths-id6413183?country=in", color: "bg-orange-500 hover:bg-orange-600" },
-                { name: "Pocket Casts", logo: "/src/photos/logos/pocketcasts-app-logo.svg", url: "https://pca.st/2pb1noe5", color: "bg-red-600 hover:bg-red-700" },
-                { name: "Overcast", logo: "/src/photos/logos/overcast-app-logo.svg", url: "https://overcast.fm/itunes1787360350", color: "bg-orange-500 hover:bg-orange-600" },
-                { name: "Amazon Music", logo: "/src/photos/logos/amazonmusic-app-logo.svg", url: "https://music.amazon.com/podcasts/e5467350-fe54-470d-b02a-bab0e379ad36/deep-dive-reads", color: "bg-purple-700 hover:bg-purple-800" },
-                { name: "JioSaavn", logo: "/src/photos/logos/jiosaavn-app-logo.svg", url: "https://www.jiosaavn.com/shows/deep-dive-reads/1/LmzRNwiUE14_", color: "bg-green-700 hover:bg-green-800" },
-                { name: "RSS Feed", logo: "/src/photos/logos/rss-app-logo.png", url: "https://feeds.acast.com/public/shows/676bfbea8e646d14de4dfe5c", color: "bg-orange-600 hover:bg-orange-700" },
-                { name: "Subscribe on Android", logo: "/src/photos/logos/android-app-logo.svg", url: "https://www.subscribeonandroid.com/feeds.acast.com/public/shows/676bfbea8e646d14de4dfe5c", color: "bg-green-600 hover:bg-green-700" }
+                { name: "Spotify", logo: "/public/images/spotify-app-logo.svg", url: "https://open.spotify.com/show/25aO0fxQNHSKFpWviUvQ4w?utm_medium=share&utm_source=linktree", color: "bg-green-500 hover:bg-green-600" },
+                { name: "Apple Podcasts", logo: "/public/images/applepodcast-app-logo.svg", url: "https://podcasts.apple.com/us/podcast/deep-dive-reads/id1787360350?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_p", color: "bg-gray-800 hover:bg-gray-900" },
+                { name: "Castbox", logo: "/public/images/castbox-app-logo.svg", url: "https://castbox.fm/channel/Deep-Dive-Reads%3A-Self-Help-Book-Reviews-%26-Literary-Insights-for-Growths-id6413183?country=in", color: "bg-orange-500 hover:bg-orange-600" },
+                { name: "Pocket Casts", logo: "/public/images/pocketcasts-app-logo.svg", url: "https://pca.st/2pb1noe5", color: "bg-red-600 hover:bg-red-700" },
+                { name: "Overcast", logo: "/public/images/overcast-app-logo.svg", url: "https://overcast.fm/itunes1787360350", color: "bg-orange-500 hover:bg-orange-600" },
+                { name: "Amazon Music", logo: "/public/images/amazonmusic-app-logo.svg", url: "https://music.amazon.com/podcasts/e5467350-fe54-470d-b02a-bab0e379ad36/deep-dive-reads", color: "bg-purple-700 hover:bg-purple-800" },
+                { name: "JioSaavn", logo: "/public/images/jiosaavn-app-logo.svg", url: "https://www.jiosaavn.com/shows/deep-dive-reads/1/LmzRNwiUE14_", color: "bg-green-700 hover:bg-green-800" },
+                { name: "RSS Feed", logo: "/public/images/rss-app-logo.png", url: "https://feeds.acast.com/public/shows/676bfbea8e646d14de4dfe5c", color: "bg-orange-600 hover:bg-orange-700" },
+                { name: "Subscribe on Android", logo: "/public/images/android-app-logo.svg", url: "https://www.subscribeonandroid.com/feeds.acast.com/public/shows/676bfbea8e646d14de4dfe5c", color: "bg-green-600 hover:bg-green-700" }
             ]
         }
     ];
