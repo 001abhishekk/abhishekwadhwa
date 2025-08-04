@@ -4,6 +4,11 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  server: {
+    watch: {
+      usePolling: true
+    }
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src/components/ui')
