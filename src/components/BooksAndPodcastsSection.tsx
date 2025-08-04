@@ -40,7 +40,7 @@ export const BooksAndPodcastsSection = () => {
             thumbnail: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43331264/43331264-1745062376226-9a0858e9152a3.jpg",
             platforms: [
                 { name: "Spotify", logo: "/src/photos/logos/spotify-app-logo.svg", url: "https://open.spotify.com/show/1iDfNxMLs6vBQthe7SmcUR", color: "bg-green-500 hover:bg-green-600" },
-                { name: "Apple Podcasts", logo: "/src/photos/logos/apple-app-logo.svg", url: "https://podcasts.apple.com/podcast/id1804601526", color: "bg-gray-800 hover:bg-gray-900" },
+                { name: "Apple Podcasts", logo: "/src/photos/logos/applepodcast-app-logo.svg", url: "https://podcasts.apple.com/podcast/id1804601526", color: "bg-gray-800 hover:bg-gray-900" },
                 { name: "Overcast", logo: "/src/photos/logos/overcast-app-logo.svg", url: "https://overcast.fm/itunes1804601526", color: "bg-orange-500 hover:bg-orange-600" },
                 { name: "Pocket Casts", logo: "/src/photos/logos/pocketcasts-app-logo.svg", url: "https://pca.st/itunes/1804601526", color: "bg-red-600 hover:bg-red-700" },
                 { name: "Podcast Addict", logo: "/src/photos/logos/podcastaddict-app-logo.png", url: "https://podcastaddict.com/feed/https%3A%2F%2Fanchor.fm%2Fs%2F102ded980%2Fpodcast%2Frss", color: "bg-orange-700 hover:bg-orange-800" },
