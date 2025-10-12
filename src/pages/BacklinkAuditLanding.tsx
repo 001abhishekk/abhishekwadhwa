@@ -1,4 +1,6 @@
 import React from 'react';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 import { BacklinkHeroSection } from '../components/backlink/BacklinkHeroSection';
 import { ProblemStatementSection } from '../components/backlink/ProblemStatementSection';
 import { ProcessSection } from '../components/backlink/ProcessSection';
@@ -7,11 +9,11 @@ import { ServicePackagesSection } from '../components/backlink/ServicePackagesSe
 import { WhyWorkWithMeSection } from '../components/backlink/WhyWorkWithMeSection';
 import { ClosingCTASection } from '../components/backlink/ClosingCTASection';
 import { FAQSection } from '../components/backlink/FAQSection';
-import { BacklinkFooter } from '../components/backlink/BacklinkFooter';
 
 export const BacklinkAuditLanding = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Header />
       <BacklinkHeroSection />
       <ProblemStatementSection />
       <ProcessSection />
@@ -20,7 +22,7 @@ export const BacklinkAuditLanding = () => {
       <WhyWorkWithMeSection />
       <ClosingCTASection />
       <FAQSection />
-      <BacklinkFooter />
+      <Footer />
     </div>
   );
 };
