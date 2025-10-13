@@ -6,6 +6,7 @@ import { AboutSection } from './components/AboutSection';
 import { BooksAndPodcastsSection } from './components/BooksAndPodcastsSection';
 import { FeaturedBlogSection } from './components/FeaturedBlogSection';
 import { SocialMediaSection } from './components/SocialMediaSection';
+import { WorkSection } from './components/WorkSection';
 import { CTASection } from './components/CTASection';
 import { Footer } from './components/Footer';
 import { AboutPage } from './pages/AboutPage';
@@ -21,6 +22,7 @@ function HomePage() {
       <Header />
       <HeroSection />
       <AboutSection />
+      <WorkSection />
       <BooksAndPodcastsSection />
       <FeaturedBlogSection />
       <SocialMediaSection />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Instagram, Linkedin, Twitter, Facebook, Youtube, MessageCircle, Mail, CheckCircle, AlertCircle } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 
 export const Footer = () => {
   const [email, setEmail] = useState('');
@@ -12,31 +13,25 @@ export const Footer = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
     setErrorMessage('');
-    
+
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: 'Newsletter Subscriber',
-          email: email,
-          subject: 'Newsletter Subscription',
-          message: 'I would like to subscribe to your newsletter and receive updates on your latest content, books, and insights.',
-          honeypot: '',
-          isNewsletter: true
-        }),
-      });
+      const { data, error } = await supabase
+        .from('newsletter_subscriptions')
+        .insert([{ email: email.trim().toLowerCase(), source: 'website' }])
+        .select()
+        .maybeSingle();
 
-      const data = await response.json();
-
-      if (response.ok) {
+      if (error) {
+        if (error.code === '23505') {
+          setSubmitStatus('error');
+          setErrorMessage('This email is already subscribed!');
+        } else {
+          setSubmitStatus('error');
+          setErrorMessage('Something went wrong. Please try again.');
+        }
+      } else {
         setSubmitStatus('success');
         setEmail('');
-      } else {
-        setSubmitStatus('error');
-        setErrorMessage(data.details || data.error || 'Something went wrong. Please try again.');
       }
     } catch (error) {
       console.error('Newsletter subscription error:', error);
@@ -68,12 +63,12 @@ export const Footer = () => {
   ];
 
   const quickLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'Blog', href: '#blog' },
-    { label: 'Books', href: '#books' },
-    { label: 'Podcasts', href: '#books' },
-    { label: 'About Me', href: '#about' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Home', href: '/' },
+    { label: 'About', href: '/about' },
+    { label: 'Work', href: '/work' },
+    { label: 'Contact', href: '/contact' },
+    { label: 'Hire Me', href: '/hire-me' },
+    { label: 'Backlink Audit', href: '/backlink-audit' }
   ];
 
   return (
