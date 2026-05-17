@@ -86,6 +86,16 @@ export const JourneyTimelineSection = () => {
       icon: Award,
       color: 'bg-purple-500',
       type: 'milestone'
+    },
+    {
+      year: 'Mid 2025 – Present',
+      title: 'Manager – Digital & Brand Marketing',
+      subtitle: 'Travel & Education Brand Portfolio, Kurukshetra',
+      description: 'Leading digital marketing, brand positioning, lead generation, and campaign strategy across education and B2B travel verticals. Managing content strategy, paid campaigns, audience growth, and conversion-focused marketing initiatives.',
+      quote: 'Built the bridge from content creation to full-scale brand and growth leadership.',
+      icon: Briefcase,
+      color: 'bg-indigo-500',
+      type: 'work'
     }
   ];
 
