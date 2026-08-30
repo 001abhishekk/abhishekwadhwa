@@ -12,7 +12,7 @@ export const AboutHeroSection = () => {
               Hi, I'm Abhishek <span className="wave">👋</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Author, Digital Marketer & Content Strategist — driven by ideas that inspire action.
+              Digital & Brand Marketing Manager — building growth systems across demand generation, paid acquisition and brand strategy.
             </p>
             <a href="/work">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg inline-flex items-center">

@@ -19,7 +19,7 @@ export const HireMeHeroSection = () => {
             Work With Abhishek Wadhwa
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
-            Strategy, storytelling, and smart execution — for brands building beyond buzzwords.
+            Demand generation, paid acquisition, and brand strategy — for businesses that need growth systems, not just campaigns.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

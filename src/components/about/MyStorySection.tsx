@@ -39,24 +39,24 @@ export const MyStorySection = () => {
                 I left college once — not because I lacked ambition, but because I wanted to find my own path. 
                 I soon enrolled again through correspondence and self-taught myself everything about content 
                 marketing, SEO, and digital strategy. I've since completed 11+ marketing certifications and 
-                carved a niche for myself — even outranking industry leaders like Neil Patel on Google and Quora.
+                built a career that's evolved from SEO and content into growth marketing.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 my-8">
                 <p className="text-blue-800 font-medium italic text-xl">
-                  "I believe content should feel like a conversation, not a pitch."
+                  "I build marketing systems that turn positioning into demand, demand into pipeline, and customer interactions into measurable growth."
                 </p>
               </div>
 
               <p>
-                Writing isn't just a profession to me — it's purpose. Whether it's a blog, a book, or a podcast, 
-                I believe every word should either inspire or inform. And when I'm not writing, I dream about 
-                building a supercomputer or helping children in need — because dreams matter, whether big or small.
+                Today, that path has taken me from content and organic growth into B2B demand generation, 
+                paid acquisition, brand strategy and marketing operations — building the systems that connect 
+                positioning, channels and pipeline for a B2B travel business, and leading a small team to do it.
               </p>
 
               <p>
-                Every step of my journey has been about learning, unlearning, and sharing. That's what I bring 
-                into every project, client, or platform I touch.
+                Every step of my journey has been about learning, unlearning, and building. That's what I bring 
+                into every team, project, or business I work with.
               </p>
             </div>
 

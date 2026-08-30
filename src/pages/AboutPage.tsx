@@ -6,7 +6,6 @@ import { MyStorySection } from '../components/about/MyStorySection';
 import { JourneyTimelineSection } from '../components/about/JourneyTimelineSection';
 import { PressMediaSection } from '../components/about/PressMediaSection';
 import { SkillsValuesSection } from '../components/about/SkillsValuesSection';
-import { TestimonialsSection } from '../components/about/TestimonialsSection';
 import { AboutCTASection } from '../components/about/AboutCTASection';
 
 export const AboutPage = () => {
@@ -18,7 +17,6 @@ export const AboutPage = () => {
       <JourneyTimelineSection />
       <PressMediaSection />
       <SkillsValuesSection />
-      <TestimonialsSection />
       <AboutCTASection />
       <Footer />
     </div>

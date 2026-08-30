@@ -10,12 +10,11 @@ export const HeroSection = () => {
           {/* Hero Text */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Content Creator | Author | 
-              <span className="text-blue-600"> Digital Marketing Expert</span> | 
-              Podcaster
+              Digital & Brand
+              <span className="text-blue-600"> Marketing Manager</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Helping Brands Grow | Sharing Insights Through Writing & Podcasts
+              B2B Demand Generation, Paid Acquisition & Brand Strategy — turning positioning into pipeline
             </p>
             <a href="/work">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg">

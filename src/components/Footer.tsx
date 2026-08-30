@@ -84,8 +84,8 @@ export const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">About Abhishek</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Abhishek Wadhwa is a content writer, author, and podcaster passionate about 
-              personal growth, technology, and helping people succeed in their careers and lives.
+              Abhishek Wadhwa is a Digital & Brand Marketing Manager building growth systems across 
+              B2B demand generation, paid acquisition, lifecycle marketing and brand strategy.
             </p>
             <div className="space-y-2 text-gray-300">
               <p>Email: abhishekw47@gmail.com</p>

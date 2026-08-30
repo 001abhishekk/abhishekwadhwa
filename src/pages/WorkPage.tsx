@@ -5,7 +5,6 @@ import { WorkHeroSection } from '../components/work/WorkHeroSection';
 import { FeaturedBooksSection } from '../components/work/FeaturedBooksSection';
 import { PodcastSection } from '../components/work/PodcastSection';
 import { UdemyCourseSection } from '../components/work/UdemyCourseSection';
-import { WorkTestimonialsSection } from '../components/work/WorkTestimonialsSection';
 import { SocialProofSection } from '../components/work/SocialProofSection';
 import { WorkCTASection } from '../components/work/WorkCTASection';
 
@@ -17,7 +16,6 @@ export const WorkPage = () => {
       <FeaturedBooksSection />
       <PodcastSection />
       <UdemyCourseSection />
-      <WorkTestimonialsSection />
       <SocialProofSection />
       <WorkCTASection />
       <Footer />

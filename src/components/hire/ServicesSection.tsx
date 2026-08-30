@@ -1,62 +1,62 @@
 import React from 'react';
-import { Brain, Mic, BarChart3 } from 'lucide-react';
+import { Brain, Target, BarChart3 } from 'lucide-react';
 
 export const ServicesSection = () => {
   const services = [
     {
       icon: Brain,
-      title: 'Strategy',
+      title: 'Growth & Demand Strategy',
       color: 'bg-blue-500',
       services: [
         {
-          name: 'Brand Positioning',
-          description: 'Clear messaging that cuts through the noise and connects with your audience.'
+          name: 'B2B Demand Generation',
+          description: 'Lead-generation programs across email, organic and paid channels, built around your ICP.'
         },
         {
-          name: 'Content Systems & SEO Foundations',
-          description: 'Scalable content frameworks that drive organic growth and engagement.'
+          name: 'Brand & Product Positioning',
+          description: 'Positioning, messaging and differentiation that turns market understanding into a clear proposition.'
         },
         {
-          name: 'Paid Media Setup',
-          description: 'Strategic Google, Meta, and TikTok campaigns that convert.'
+          name: 'SEO & Content Systems',
+          description: 'Technical audits, keyword strategy and content frameworks that drive organic visibility.'
         }
       ]
     },
     {
-      icon: Mic,
-      title: 'Creative Execution',
+      icon: Target,
+      title: 'Paid Acquisition',
       color: 'bg-purple-500',
       services: [
         {
-          name: 'Long-form Ghostwriting / Thought Leadership',
-          description: 'Authentic content that establishes authority and builds trust.'
+          name: 'Meta & Google Ads Management',
+          description: 'Campaign strategy, ABO/CBO structuring, and audience targeting across B2B and e-commerce accounts.'
         },
         {
-          name: 'Website Copy + UX Planning',
-          description: 'Conversion-focused copy that guides users to action.'
+          name: 'Landing Page & Conversion Planning',
+          description: 'Conversion-focused website copy and UX planning that turns traffic into leads.'
         },
         {
-          name: 'Podcast / Course / Personal Brand Launch',
-          description: 'End-to-end content strategy for new platform launches.'
+          name: 'Sales Enablement Assets',
+          description: 'Corporate profiles, pitch decks and sales collateral built from positioning through creative direction.'
         }
       ]
     },
     {
       icon: BarChart3,
-      title: 'Performance',
+      title: 'Lifecycle & Operations',
       color: 'bg-green-500',
       services: [
         {
-          name: 'Analytics Setup',
-          description: 'GA4, GTM, and Looker implementation for data-driven decisions.'
+          name: 'Email & Lifecycle Marketing',
+          description: 'Owned-channel growth with attention to list health, segmentation and engagement — not just volume.'
         },
         {
-          name: 'Conversion Optimization',
-          description: 'Testing and optimization to maximize your marketing ROI.'
+          name: 'CRM & Marketing Automation',
+          description: 'Lead workflows, routing logic and CRM requirements defined and coordinated through implementation.'
         },
         {
-          name: 'SEM Audits & Landing Page Planning',
-          description: 'Strategic analysis and optimization for better performance.'
+          name: 'Reporting & Analytics',
+          description: 'GA4, Looker Studio and performance reporting for CAC, ROAS and funnel visibility.'
         }
       ]
     }
@@ -70,7 +70,7 @@ export const ServicesSection = () => {
             What I Can Help You With
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive solutions for brands ready to scale with purpose and precision.
+            Growth marketing and marketing operations support for businesses ready to scale with purpose and precision.
           </p>
         </div>
 

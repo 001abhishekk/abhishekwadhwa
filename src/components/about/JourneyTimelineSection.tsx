@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, Briefcase, BookOpen, Store, Mic, Award } from 'lucide-react';
+import { GraduationCap, Briefcase, Store, Award } from 'lucide-react';
 
 export const JourneyTimelineSection = () => {
   const timelineEvents = [
@@ -82,10 +82,19 @@ export const JourneyTimelineSection = () => {
       title: 'Creator Milestones',
       subtitle: 'Published & Produced',
       description: 'Published 2 Contemporary Romance Novels, Launched 2 Podcast Shows, Released 1 Udemy Course',
-      quote: 'From grocery shelves to bestsellers — all through words.',
+      quote: 'The same drive for building things from scratch, now applied to growth marketing.',
       icon: Award,
       color: 'bg-purple-500',
       type: 'milestone'
+    },
+    {
+      year: 'Aug 2025 – Present',
+      title: 'Manager – Digital & Brand Marketing',
+      subtitle: 'SWT Club Pvt. Ltd., Kurukshetra',
+      description: 'Rebuilt the company\'s digital presence after a legal/hosting shutdown, grew the email database from 9.4K to 25K+ subscribers, and now deliver 250-300 qualified B2B leads every month while leading a 3-4 person marketing team.',
+      icon: Briefcase,
+      color: 'bg-blue-600',
+      type: 'work'
     }
   ];
 

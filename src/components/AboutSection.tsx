@@ -3,11 +3,11 @@ import { CheckCircle } from 'lucide-react';
 
 export const AboutSection = () => {
   const skills = [
-    'Content Writing & Copywriting',
-    'Digital Marketing Strategies',
-    'Podcasting & Public Speaking',
-    'Passion for Technology & Personal Development',
-    'Author of Unscripted Hearts and The Almost Real Thing'
+    'B2B Demand Generation & Paid Acquisition',
+    'Brand & Product Positioning',
+    'Email & Lifecycle Marketing',
+    'SEO & Marketing Operations',
+    'Team Leadership & Cross-Functional Coordination'
   ];
 
   return (
@@ -33,10 +33,10 @@ export const AboutSection = () => {
           {/* About Content */}
           <div>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Hello, I'm Abhishek Wadhwa – a content creator, digital marketing expert, author, and podcaster. 
-              With a deep passion for helping brands grow through creative content, I've had the privilege of 
-              working with numerous clients in the digital space. When I'm not writing, you'll find me diving 
-              deep into tech, reading, or discussing personal development.
+              Hello, I'm Abhishek Wadhwa – a Digital & Brand Marketing Manager with 5+ years building growth 
+              programs across B2B demand generation, paid acquisition, lifecycle marketing and brand strategy. 
+              My career started in SEO and content, and has evolved into performance marketing, brand strategy 
+              and marketing operations — connecting positioning, acquisition and channels into one growth system.
             </p>
 
             <div className="mb-8">
