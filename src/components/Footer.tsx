@@ -84,8 +84,8 @@ export const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-6">About Abhishek</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Abhishek Wadhwa is a Digital & Brand Marketing Manager building growth systems across 
-              B2B demand generation, paid acquisition, lifecycle marketing and brand strategy.
+              Marketing, growth & everything in between. I build, experiment and share what I learn 
+              along the way — currently building growth systems for a B2B travel company.
             </p>
             <div className="space-y-2 text-gray-300">
               <p>Email: abhishekw47@gmail.com</p>
@@ -174,7 +174,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Abhishek Wadhwa. All rights reserved. Built with passion for sharing knowledge and inspiring growth.
+            © 2026 Abhishek Wadhwa. All rights reserved.
           </p>
         </div>
       </div>

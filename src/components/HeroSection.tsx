@@ -10,17 +10,25 @@ export const HeroSection = () => {
           {/* Hero Text */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Digital & Brand
-              <span className="text-blue-600"> Marketing Manager</span>
+              I build. I market.
+              <span className="text-blue-600"> I experiment. I share.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              B2B Demand Generation, Paid Acquisition & Brand Strategy — turning positioning into pipeline
+              Digital marketer, brand builder & growth practitioner — currently building growth 
+              systems for a B2B travel company, and documenting campaigns, experiments and lessons along the way.
             </p>
-            <a href="/work">
-            <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg">
-              Explore My Work
-              </button>
-              </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a href="/work">
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg">
+                Explore the Work
+                </button>
+                </a>
+              <a href="https://01abhishek.medium.com/" target="_blank" rel="noopener noreferrer">
+              <button className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-50 transition-all duration-200">
+                Read the Latest
+                </button>
+                </a>
+            </div>
 
           </div>
 
