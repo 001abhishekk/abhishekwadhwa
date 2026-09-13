@@ -10,12 +10,15 @@ export const HeroSection = () => {
           {/* Hero Text */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              I build. I market.
-              <span className="text-blue-600"> I experiment. I share.</span>
+              Abhishek Wadhwa
+              <span className="text-blue-600"> Digital & Brand Marketing Manager</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Digital marketer, brand builder & growth practitioner — currently building growth 
-              systems for a B2B travel company, and documenting campaigns, experiments and lessons along the way.
+            <p className="text-xl md:text-2xl text-gray-600 mb-6 leading-relaxed">
+              Growth Marketing & Marketing Operations. I build marketing systems that turn positioning
+              into demand, demand into pipeline, and customer interactions into measurable growth.
+            </p>
+            <p className="text-base md:text-lg text-gray-500 mb-8 leading-relaxed">
+              B2B Demand Generation &middot; Paid Acquisition &middot; Lifecycle Marketing &middot; Brand Strategy &middot; Marketing Operations
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href="/work">

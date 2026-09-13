@@ -71,14 +71,14 @@ export const SkillsValuesSection = () => {
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-8">Technical Expertise</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
+              'B2B Demand Generation',
+              'Paid Acquisition (Meta/Google Ads)',
+              'Lifecycle & Email Marketing',
+              'Brand Strategy & Positioning',
+              'Marketing Operations (CRM/Workflows)',
               'SEO & Content Strategy',
-              'Digital Marketing',
-              'Copywriting',
-              'Podcast Production',
-              'Social Media Strategy',
-              'Email Marketing',
-              'Brand Storytelling',
-              'Analytics & Optimization'
+              'Analytics & Reporting (GA4)',
+              'Team Leadership & Coordination'
             ].map((skill, index) => (
               <div key={index} className="text-center p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors duration-200">
                 <p className="font-medium text-gray-800">{skill}</p>

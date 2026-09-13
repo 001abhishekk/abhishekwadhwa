@@ -8,11 +8,18 @@ export const AboutHeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Hero Text */}
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Hi, I'm Abhishek <span className="wave">👋</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+              About Abhishek Wadhwa
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Digital & Brand Marketing Manager — building growth systems across demand generation, paid acquisition and brand strategy.
+            <p className="text-xl md:text-2xl text-gray-600 mb-6 leading-relaxed">
+              Digital & Brand Marketing Manager &middot; Growth Marketing & Marketing Operations
+            </p>
+            <p className="text-lg text-gray-500 mb-4 leading-relaxed">
+              Abhishek Wadhwa is a Digital & Brand Marketing Manager specializing in B2B demand generation,
+              paid acquisition, lifecycle marketing, brand strategy and marketing operations.
+            </p>
+            <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+              Hi, I'm Abhishek <span className="wave">👋</span>
             </p>
             <a href="/work">
             <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg inline-flex items-center">

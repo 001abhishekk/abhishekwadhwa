@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { WorkHeroSection } from '../components/work/WorkHeroSection';
+import { WorkCaseStudiesSection } from '../components/work/WorkCaseStudiesSection';
 import { FeaturedBooksSection } from '../components/work/FeaturedBooksSection';
 import { PodcastSection } from '../components/work/PodcastSection';
 import { UdemyCourseSection } from '../components/work/UdemyCourseSection';
@@ -13,6 +14,7 @@ export const WorkPage = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <WorkHeroSection />
+      <WorkCaseStudiesSection />
       <FeaturedBooksSection />
       <PodcastSection />
       <UdemyCourseSection />

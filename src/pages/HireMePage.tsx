@@ -5,7 +5,8 @@ import { HireMeHeroSection } from '../components/hire/HireMeHeroSection';
 import { ServicesSection } from '../components/hire/ServicesSection';
 import { ClientFitSection } from '../components/hire/ClientFitSection';
 import { ProcessSection } from '../components/hire/ProcessSection';
-import { PricingSection } from '../components/hire/PricingSection';
+// PricingSection intentionally not rendered for now — see PricingSection.tsx for details.
+// import { PricingSection } from '../components/hire/PricingSection';
 import { HireMeCTASection } from '../components/hire/HireMeCTASection';
 
 export const HireMePage = () => {
@@ -16,7 +17,6 @@ export const HireMePage = () => {
       <ServicesSection />
       <ClientFitSection />
       <ProcessSection />
-      <PricingSection />
       <HireMeCTASection />
       <Footer />
     </div>

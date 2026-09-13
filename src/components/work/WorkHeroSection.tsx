@@ -17,10 +17,11 @@ export const WorkHeroSection = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="mb-8">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Stories, Voices, and Value
+            Selected Work
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-4xl mx-auto mb-8">
-            Explore my creative & strategic projects — each crafted with intention, passion, and purpose.
+            Marketing systems and campaigns across demand generation, paid acquisition, lifecycle,
+            brand and operations — plus the books, podcasts and courses I've built along the way.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

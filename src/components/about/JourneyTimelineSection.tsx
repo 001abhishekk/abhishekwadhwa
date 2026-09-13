@@ -91,7 +91,7 @@ export const JourneyTimelineSection = () => {
       year: 'Aug 2025 – Present',
       title: 'Manager – Digital & Brand Marketing',
       subtitle: 'SWT Club Pvt. Ltd., Kurukshetra',
-      description: 'Rebuilt the company\'s digital presence after a legal/hosting shutdown, grew the email database from 9.4K to 25K+ subscribers, and now deliver 250-300 qualified B2B leads every month while leading a 3-4 person marketing team.',
+      description: 'Manager – Digital & Brand Marketing at a B2B travel company. Rebuilt the company\'s digital presence after a legal/hosting shutdown, and now lead demand generation, paid acquisition, lifecycle/email, brand and marketing operations — growing the email database from 9.4K to 25K+ subscribers and delivering 250-300 qualified B2B leads every month while leading a 3-4 person marketing team.',
       icon: Briefcase,
       color: 'bg-blue-600',
       type: 'work'

@@ -19,7 +19,8 @@ export const HireMeHeroSection = () => {
             Work With Abhishek Wadhwa
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
-            Demand generation, paid acquisition, and brand strategy — for businesses that need growth systems, not just campaigns.
+            B2B demand generation, paid acquisition, lifecycle marketing, brand strategy, and marketing
+            strategy — for businesses that need growth systems, not just campaigns.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

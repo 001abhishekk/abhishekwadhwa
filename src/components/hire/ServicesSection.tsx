@@ -1,20 +1,16 @@
 import React from 'react';
-import { Brain, Target, BarChart3 } from 'lucide-react';
+import { Brain, Target, BarChart3, Palette, Compass } from 'lucide-react';
 
 export const ServicesSection = () => {
   const services = [
     {
       icon: Brain,
-      title: 'Growth & Demand Strategy',
+      title: 'Growth & Demand Generation',
       color: 'bg-blue-500',
       services: [
         {
           name: 'B2B Demand Generation',
           description: 'Lead-generation programs across email, organic and paid channels, built around your ICP.'
-        },
-        {
-          name: 'Brand & Product Positioning',
-          description: 'Positioning, messaging and differentiation that turns market understanding into a clear proposition.'
         },
         {
           name: 'SEO & Content Systems',
@@ -34,6 +30,21 @@ export const ServicesSection = () => {
         {
           name: 'Landing Page & Conversion Planning',
           description: 'Conversion-focused website copy and UX planning that turns traffic into leads.'
+        }
+      ]
+    },
+    {
+      icon: Palette,
+      title: 'Brand Strategy',
+      color: 'bg-pink-500',
+      services: [
+        {
+          name: 'Positioning & Messaging',
+          description: 'Positioning, ICP and differentiation that turns market understanding into a clear proposition.'
+        },
+        {
+          name: 'Brand Systems & Guidelines',
+          description: 'Brand direction, values, tone of voice and visual system, developed alongside a designer.'
         },
         {
           name: 'Sales Enablement Assets',
@@ -43,7 +54,7 @@ export const ServicesSection = () => {
     },
     {
       icon: BarChart3,
-      title: 'Lifecycle & Operations',
+      title: 'Lifecycle & Marketing Operations',
       color: 'bg-green-500',
       services: [
         {
@@ -57,6 +68,21 @@ export const ServicesSection = () => {
         {
           name: 'Reporting & Analytics',
           description: 'GA4, Looker Studio and performance reporting for CAC, ROAS and funnel visibility.'
+        }
+      ]
+    },
+    {
+      icon: Compass,
+      title: 'Marketing Strategy',
+      color: 'bg-indigo-500',
+      services: [
+        {
+          name: 'Marketing Systems & Planning',
+          description: 'Connecting positioning, channels, content and operations into one coordinated growth system.'
+        },
+        {
+          name: 'Cross-Functional Coordination',
+          description: 'Translating strategy into execution across design, technical, CRM, sales and operations teams.'
         }
       ]
     }

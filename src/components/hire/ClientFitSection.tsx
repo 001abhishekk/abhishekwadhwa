@@ -5,7 +5,7 @@ export const ClientFitSection = () => {
   const idealClients = [
     'Founders building long-term ventures',
     'Marketers tired of generic funnels',
-    'Experts / Coaches ready to scale content',
+    'B2B businesses building demand-generation systems',
     'Early-stage teams needing clarity, not chaos'
   ];
 
@@ -63,8 +63,9 @@ export const ClientFitSection = () => {
         <div className="mt-12 text-center">
           <div className="bg-blue-50 p-8 rounded-2xl border-l-4 border-blue-600">
             <p className="text-blue-800 text-lg">
-              <strong>My Philosophy:</strong> I believe in building systems and strategies that compound over time, 
-              not just creating content that gets forgotten tomorrow.
+              <strong>My Philosophy:</strong> I don't just build individual campaigns. I build connected
+              marketing systems designed to create demand, support the customer journey, and produce
+              measurable growth.
             </p>
           </div>
         </div>

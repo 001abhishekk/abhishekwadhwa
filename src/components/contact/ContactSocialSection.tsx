@@ -1,17 +1,10 @@
 import React from 'react';
-import { Globe, Linkedin, Facebook, Instagram, MessageCircle, BookOpen } from 'lucide-react';
+import { Linkedin, Facebook, Instagram, MessageCircle, BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 
 export const ContactSocialSection = () => {
   const socialLinks = [
-    {
-      icon: Globe,
-      platform: 'Website',
-      handle: 'www.abhishekwadhwa.com',
-      href: '#',
-      color: 'hover:text-gray-900 hover:bg-gray-100'
-    },
     {
       icon: Linkedin,
       platform: 'LinkedIn',
@@ -88,8 +81,8 @@ export const ContactSocialSection = () => {
               Let's Build Something Together
             </h3>
             <p className="text-gray-700 mb-6">
-              Whether you need content strategy, copywriting, or want to collaborate on a project, 
-              I'm always excited to work with passionate people and brands.
+              Whether you need help with demand generation, growth marketing, brand strategy, or 
+              marketing operations, I'm open to meaningful marketing conversations and opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/start-project">

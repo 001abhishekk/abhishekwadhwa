@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
+import { WhatIDoSection } from './components/WhatIDoSection';
+import { SelectedImpactSection } from './components/SelectedImpactSection';
+import { SelectedWorkSection } from './components/SelectedWorkSection';
 import { AboutSection } from './components/AboutSection';
 import { FeaturedBlogSection } from './components/FeaturedBlogSection';
 import { BooksAndPodcastsSection } from './components/BooksAndPodcastsSection';
@@ -23,6 +26,9 @@ function App() {
             <>
               <Header />
               <HeroSection />
+              <WhatIDoSection />
+              <SelectedImpactSection />
+              <SelectedWorkSection />
               <AboutSection />
               <FeaturedBlogSection />
               <BooksAndPodcastsSection />

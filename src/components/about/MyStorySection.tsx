@@ -38,8 +38,9 @@ export const MyStorySection = () => {
               <p>
                 I left college once — not because I lacked ambition, but because I wanted to find my own path. 
                 I soon enrolled again through correspondence and self-taught myself everything about content 
-                marketing, SEO, and digital strategy. I've since completed 11+ marketing certifications and 
-                built a career that's evolved from SEO and content into growth marketing.
+                marketing, SEO, and digital strategy. I've since completed certifications including HubSpot 
+                Content Marketing, HubSpot Email Marketing, HubSpot SEO, and Semrush SEO Toolkit, and built a 
+                career that's evolved from SEO and content into growth marketing.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600 my-8">
@@ -51,7 +52,7 @@ export const MyStorySection = () => {
               <p>
                 Today, that path has taken me from content and organic growth into B2B demand generation, 
                 paid acquisition, brand strategy and marketing operations — building the systems that connect 
-                positioning, channels and pipeline for a B2B travel business, and leading a small team to do it.
+                positioning, channels and pipeline, and leading a small team to do it.
               </p>
 
               <p>
